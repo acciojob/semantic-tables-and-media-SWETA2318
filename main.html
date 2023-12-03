@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<title>Semantic Tables and Media</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Ordered List</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<table>
-		<thead>
-			<tr>
-				<th>Roll numbers</th>
-				<th>Names</th>
-			</tr>
-		</thead>
-		<tr>
-			<td>1</td>
-			<td>John Deo</td>
-			
-		<tr>
+
+    <!-- Table with Semantic Tags -->
+    <table>
+        <thead>
+            <tr>
+                <th>Roll Number</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
                 <td>2</td>
                 <td>Jane Smith</td>
             </tr>
@@ -31,31 +31,24 @@
         </tbody>
     </table>
 
-    <!-- Heading for the List -->
-    <h2>List of Medias</h2>
+    <!-- Heading between the table and ordered list -->
+    <h2>List of medias</h2>
 
-    <!-- Ordered List -->
+    <!-- Ordered List with Specific Items -->
     <ol>
-        <!-- First Item - Image -->
         <li>
-            <figure>
-                <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
-            </figure>
+            Image: <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
         </li>
-
-        <!-- Second Item - Video -->
         <li>
-            <video width="200" height="300" controls>
-                <src url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+            Video: <video width="320" height="240" controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </li>
-
-        <!-- Third Item - Audio -->
         <li>
-            <audio controls>
+            Audio: <audio controls>
                 <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-                
+                Your browser does not support the audio tag.
             </audio>
         </li>
     </ol>
